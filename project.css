@@ -334,18 +334,24 @@ span a{
 
 
 /* Style the product container */
+
 .product-container {
-    border: 1px solid #ddd; /* Add a border */
+   
+    
+    border: 1px solid #ddd; 
     padding: 20px; /* Add padding for spacing */
-    border-radius: 5px; /* Add rounded corners */
-    width: 400px; /* Set a width for the form */
-    margin: 0 auto; /* Center the form horizontally */
-    background:rgb(255, 221, 0) ;
+    border-radius: 5px; 
+    width: 400px; 
+    margin-top: 200px;
+    margin-bottom: 200px;
+    margin-left: 72vh; 
+    background: #f1B1d1 ;
+   
 }
   
   /* Style the heading */
 .heading {
-    text-align: center; /* Center the heading text */
+    text-align: center; 
     margin-bottom: 15px; /* Add space below the heading */
     font-size: 25px;
     
@@ -450,6 +456,7 @@ span a{
     align-items: center;
     justify-content: center;
     min-height: 90vh;
+    
 }
 .box{
     
@@ -508,6 +515,63 @@ span a{
 .links{
     margin-bottom: 15px;
 }
+ /* Style the form */
+
+/* Form containerere */
+.update_product {
+    background:rgb(255, 221, 0) ; 
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 50%; /* Adjust width as needed */
+}
+.update_product .product_container_box{
+    background:rgb(255, 221, 0);
+
+}
+  
+  /* Input fields */
+.input-field {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    background:rgb(159, 202, 225);
+
+
+    
+}
+  
+  /* Buttons */
+.btns {
+    text-align: center;
+}
+  
+.edit_btn,
+.cancel_btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+  
+.edit_btn {
+    background-color: rgb(36, 123, 160); /* Green */
+    color: white;
+}
+  
+.close_edit {
+    background-color: #5a779b; /* Light Gray */
+    color: black;
+}
+  
+ 
+
+  
+
+  
 
 
 
