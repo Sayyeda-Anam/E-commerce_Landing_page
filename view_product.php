@@ -32,7 +32,7 @@ include"connect.php"
             </div> 
             <div class="nav-singIn border">
                 
-                <p><span><a href="login.html">SingIn</a></span></p>
+                <p><span><a href="login.php">SingIn</a></span></p>
                 
                 <div class="account-icon ">
                     <i class="fa-regular fa-circle-user"></i>
@@ -113,10 +113,12 @@ include"connect.php"
             <td><?php echo $row["product_brand"]; ?></td>
             <td>
               <a href="delete.php?delete=<?php echo $row['id']; ?>" class="delete_product_btn" onclick="return confirm('Are you sure you want to delete this product?');">
-                <i class="fas fa-trash"></i>
+                <i class="fas fa-trash"></i>  <!---take the icon from the font awesome website---> 
               </a>
               
-                <i class="fas fa-edit"></i>
+              <a href="update.php?edit=<?php echo $row['id']; ?>"
+               class ="edit_product_btn">
+                <i class ="fas fa-edit"></i></a>
               
             </td>
           </tr>
